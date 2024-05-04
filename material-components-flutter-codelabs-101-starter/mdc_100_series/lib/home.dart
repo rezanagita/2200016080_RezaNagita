@@ -79,6 +79,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         // TODO: Add buttons and title (102)
         title: Text('', style: TextStyle(color: Colors.white)),
+        backgroundColor: Color.fromARGB(255, 248, 148, 248),
         leading: IconButton(
           icon: Icon(Icons.menu),
           color: Colors.white,
